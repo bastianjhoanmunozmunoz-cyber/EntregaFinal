@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude domain="file" path="rumbo_places.json" />
+    <exclude domain="file" path="photos/" />
+    <exclude domain="file" path="photos_enc/" />
+    <exclude domain="sharedpref" path="secure_map_prefs.xml" />
+</full-backup-content>

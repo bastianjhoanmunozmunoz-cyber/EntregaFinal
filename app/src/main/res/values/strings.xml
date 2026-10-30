@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Rumbo · Bitácora</string>
+
+    <!-- Pantalla principal -->
+    <string name="header_kicker">R U M B O   ·   BITÁCORA</string>
+    <string name="header_title">Guarda el camino.</string>
+    <string name="preparing_map">Preparando tu mapa…</string>
+    <string name="map_pill">●  MAPA</string>
+    <string name="collection_label">TU COLECCIÓN</string>
+    <string name="zero_points">0 puntos</string>
+    <string name="collection_hint">Toca el mapa para guardar · toca un marcador para editar</string>
+    <string name="photo">Foto</string>
+    <plurals name="points_count">
+        <item quantity="one">%d punto</item>
+        <item quantity="other">%d puntos</item>
+    </plurals>
+
+    <!-- Descripciones de accesibilidad -->
+    <string name="cd_compass">Brújula Rumbo</string>
+    <string name="cd_my_location">Ir a mi ubicación</string>
+    <string name="cd_last_photo">Última foto de la bitácora</string>
+    <string name="cd_map_pin">Marcador de mapa</string>
+    <string name="cd_delete_all">Borrar todos los puntos</string>
+    <string name="cd_place_photo">Foto del lugar</string>
+    <string name="expand_map">Expandir mapa</string>
+    <string name="collapse_map">Reducir mapa</string>
+
+    <!-- Ubicación -->
+    <string name="getting_location">Obteniendo ubicación GPS…</string>
+    <string name="live_location">EN VIVO · %1$.5f, %2$.5f · ±%3$.0f m</string>
+    <string name="no_gps_signal">Sin señal GPS · revisa que la ubicación esté activada</string>
+    <string name="location_failed">No pudimos obtener la ubicación</string>
+    <string name="location_off">Ubicación desactivada · toca el mapa para guardar lugares</string>
+    <string name="location_permission_blocked">El permiso de ubicación está bloqueado. Actívalo en Ajustes.</string>
+
+    <!-- Lugares -->
+    <string name="place_saved">Lugar guardado · %s</string>
+    <string name="undo">Deshacer</string>
+    <string name="snippet_with_photo">%s · con foto</string>
+    <string name="nothing_to_delete">No hay puntos guardados para borrar</string>
+    <string name="clear_title">¿Borrar todos los puntos?</string>
+    <string name="clear_message">Se quitarán de la bitácora todos los marcadores y sus fotos. Esta acción no se puede deshacer.</string>
+    <string name="clear_confirm">Borrar todo</string>
+    <string name="all_deleted">Se borraron todos los puntos</string>
+    <string name="delete_place_title">¿Borrar este lugar?</string>
+    <string name="delete_place_message">Se borrará «%s» junto con su foto y su nota.</string>
+
+    <!-- Detalle de lugar -->
+    <string name="place_details">Detalle del lugar</string>
+    <string name="name_hint">Nombre</string>
+    <string name="note_hint">Nota</string>
+    <string name="take_photo">Tomar foto</string>
+    <string name="change_photo">Cambiar foto</string>
+    <string name="remove_photo">Quitar foto</string>
+    <string name="photo_removed">Foto eliminada</string>
+
+    <!-- Cámara -->
+    <string name="need_location_or_place">Primero obtén tu ubicación o toca un lugar del mapa</string>
+    <string name="camera_permission_needed">Necesitamos permiso de cámara para tomar la foto</string>
+    <string name="camera_permission_blocked">El permiso de cámara está bloqueado. Actívalo en Ajustes.</string>
+    <string name="camera_unavailable">No se pudo abrir la cámara</string>
+    <string name="saving_photo">Guardando foto cifrada…</string>
+    <string name="photo_saved">Foto guardada en tu bitácora</string>
+    <string name="photo_failed">No se pudo guardar la foto</string>
+
+    <!-- Varios -->
+    <string name="maps_key_missing">Falta la clave de Google Maps. Crea secrets.properties con MAPS_API_KEY (ver README) y vuelve a compilar.</string>
+    <string name="settings">Ajustes</string>
+    <string name="ok">Entendido</string>
+    <string name="save">Guardar</string>
+    <string name="delete">Borrar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="close">Cerrar</string>
+</resources>

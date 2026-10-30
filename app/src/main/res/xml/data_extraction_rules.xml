@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="file" path="rumbo_places.json" />
+        <exclude domain="file" path="photos/" />
+        <exclude domain="file" path="photos_enc/" />
+        <exclude domain="sharedpref" path="secure_map_prefs.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="file" path="rumbo_places.json" />
+        <exclude domain="file" path="photos/" />
+        <exclude domain="file" path="photos_enc/" />
+        <exclude domain="sharedpref" path="secure_map_prefs.xml" />
+    </device-transfer>
+</data-extraction-rules>
